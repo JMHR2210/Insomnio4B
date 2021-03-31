@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/Cloud.ico"/>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>About Us | Insomnio</title>
+</head>
+<body>
+    <a id="inicio"></a>
+    <nav>
+        <a class="redireccionar" href="./index.html"><div class="logo">INSOMNIO</div></a>
+        <div class="nav-items">
+            <a href="./index.html">Home</a>
+            <a href="./about_us.html">About us</a>
+            <a href="./contact.html">Contact</a>
+        </div>
+    </nav>
+    <section class="hero">
+        <div class="hero-container">
+            <div class="column-left">
+                <h1>Somos <span class="type"></span></h1><br>
+                <p align="justify">Somos un pequeño grupo de 4 estudiantes de 4° Semestre de la especialidad de Programación del Centro de Bachillerato Tencológico indrustrial y de servicios N°91 de la Ciudad de Ixtepec, Oaxaca. Nuesto equipo está conformado por:<br><br>
+                Jorge Mauricio<br>
+                Diego Alberto<br>
+                Arely<br>
+                Gerar</p>
+            </div>
+            <div class="column-right">
+                <img src="./assets/images/image-team.svg" alt="Insomnio" class="hero-image">
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,64L40,96C80,128,160,192,240,213.3C320,235,400,213,480,186.7C560,160,640,128,720,133.3C800,139,880,181,960,208C1040,235,1120,245,1200,229.3C1280,213,1360,171,1400,149.3L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+    </section>
+    <a class="gotopbtn" href="#inicio"><i class="fas fa-arrow-up"></i></a>
+        <!-- SCRIPTS SECTION -->
+        <script src="./assets/scripts/typed.js"></script>
+        <script>
+            var typed = new Typed('.type', {
+            strings: [
+                'Programadores',
+                'Estudiantes'
+                ],
+            typeSpeed: 100,
+            backSpeed: 50,
+            loop: true
+            });
+        </script>
+</body>
+</html>

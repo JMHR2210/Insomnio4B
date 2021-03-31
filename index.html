@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/Cloud.ico"/>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Home | Insomnio</title>
+</head>
+<body>
+    <a id="inicio"></a>
+    <div class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        Recomendación: Para tener mejor experiencia en este sitio web asegúrese de tener activado el SmoothScroll en su navegador.
+      </div>
+    <nav>
+        <a class="redireccionar" href="./index.html"><div class="logo">INSOMNIO</div></a>
+        <div class="nav-items">
+            <a href="./index.html">Home</a>
+            <a href="./about_us.html">About us</a>
+            <a href="./contact.html">Contact</a>
+        </div>
+    </nav>
+    <section class="hero">
+        <div class="hero-container">
+            <div class="column-left">
+                <h1><span class="type"></span></h1><br>
+                <p>El Insomnio es la falta anormal de sueño y dificultad para conciliarlo que se sufre en el momento que corresponde a dormir, y sí, si tiene tratamiento, si quieres saber más del tema da click en el botón de abajo.</p>
+                <a href="./assets/extra/mas_informacion_insomnio.pdf" target="_blank"><button>Saber más</button></a>
+            </div>
+            <div class="column-right">
+                <img src="./assets/images/image-1.svg" alt="Insomnio" class="hero-image">
+            </div>
+        </div>
+    </section>
+    <hr size="2" color="#79b3f4">
+    <section class="hero">
+        <div class="hero-container">
+            <div class="column-right">
+                <img src="./assets/images/image-2.svg" alt="Insomnio" class="hero-image">
+            </div>
+            <div class="column-left">
+                <h1>Causas del insomnio</h1><br>
+                <p>El insomnio tiene muchas causas, una de ellas y la más común entre los adolescentes y adultos es el estrés. Después le siguen otros muchos no tan comunes como pueden ser el abuso de alcohol, drogas, cafeína, problemas psicológicos como la depresión y ansiedad o bien exceso de peso y malos hábitos de sueño.</p>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,64L40,96C80,128,160,192,240,213.3C320,235,400,213,480,186.7C560,160,640,128,720,133.3C800,139,880,181,960,208C1040,235,1120,245,1200,229.3C1280,213,1360,171,1400,149.3L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+    </section>
+    <a class="gotopbtn" href="#inicio"><i class="fas fa-arrow-up"></i></a>
+    <!-- SCRIPTS SECTION -->
+    <script src="./assets/scripts/typed.js"></script>
+    <script>
+        var typed = new Typed('.type', {
+        strings: [
+            '¿Qué es el Insomnio?',
+            '¿Tiene tratamiento?'
+            ],
+        typeSpeed: 100,
+        backSpeed: 50,
+        loop: true
+        });
+    </script>
+</body>
+</html>
